@@ -8693,7 +8693,7 @@ let canusecomet = false
 let canuseBite = false
 let lvl = 0
 if (!(blockSettings.exists("lvl"))) {
-    blockSettings.writeNumber("lvl", 12)
+    blockSettings.writeNumber("lvl", 0)
     lvl = blockSettings.readNumber("lvl")
 } else {
     lvl = blockSettings.readNumber("lvl")
